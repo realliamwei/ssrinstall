@@ -55,7 +55,7 @@ shadowsocks_r_url='https://github.com/shadowsocksrr/shadowsocksr/archive/3.2.2.t
 shadowsocks_r_init='/etc/init.d/shadowsocks-r'
 shadowsocks_r_config='/etc/shadowsocks-r/config.json'
 shadowsocks_r_centos='https://raw.githubusercontent.com/realliamwei/ssrinstall/main/shadowsocksR'
-shadowsocks_r_debian='https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR-debian'
+shadowsocks_r_debian='https://raw.githubusercontent.com/realliamwei/ssrinstall/main/shadowsocksR-debian'
 
 shadowsocks_go_file_64='shadowsocks-server-linux64-1.2.2'
 shadowsocks_go_url_64='https://dl.lamp.sh/shadowsocks/shadowsocks-server-linux64-1.2.2.gz'
