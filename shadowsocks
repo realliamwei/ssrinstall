@@ -12,7 +12,7 @@
 # Description:       Start or stop the Shadowsocks server
 ### END INIT INFO
 
-# Author: realliamwei
+# Author: Teddysun <i@teddysun.com>
 
 NAME=Shadowsocks
 if [ -f /usr/bin/ssserver ]; then
