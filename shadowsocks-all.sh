@@ -1002,7 +1002,8 @@ install_shadowsocks_libev(){
 install_shadowsocks_libev_obfs(){
     if [ "${libev_obfs}" == 'y' ] || [ "${libev_obfs}" == 'Y' ]; then
         cd "${cur_dir}" || exit
-        git clone https://github.com/shadowsocks/simple-obfs.git
+      # git clone https://github.com/shadowsocks/simple-obfs.git
+        git clone https://github.com/realliamwei/simple-obfs.git
         [ -d simple-obfs ] && cd simple-obfs || echo -e "[${red}Error:${plain}] Failed to git clone simple-obfs."
         git submodule update --init --recursive
         if centosversion 6; then
