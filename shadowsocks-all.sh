@@ -47,7 +47,7 @@ shadowsocks_python_file='shadowsocks-master'
 shadowsocks_python_url='https://github.com/shadowsocks/shadowsocks/archive/master.zip'
 shadowsocks_python_init='/etc/init.d/shadowsocks-python'
 shadowsocks_python_config='/etc/shadowsocks-python/config.json'
-shadowsocks_python_centos='https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks'
+shadowsocks_python_centos='https://raw.githubusercontent.com/realliamwei/ssrinstall/main/shadowsocks'
 shadowsocks_python_debian='https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-debian'
 
 shadowsocks_r_file='shadowsocksr-3.2.2'
